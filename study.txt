@@ -1,0 +1,57 @@
+JavaTpoint
+
+Pattern Match
+https://www.javatpoint.com/scala-for-loop
+	check by example.
+	
+
+
+
+
+
+
+Scala codes
+
+https://www.includehelp.com/scala-programs/
+https://www.scala-lang.org/old/node/220.html
+https://www.scala-lang.org/old/node/219.html
+http://www.learntosolveit.com/scala/
+https://www.cs.helsinki.fi/u/wikla/OTS/Sisalto/examples/
+
+
+
+
+http://www.learntosolveit.com/scala/CompanianObject.html
+
+
+
+http://sujitpal.blogspot.com/2009/01/scala-mock-interview-coding-questions.html
+https://www.quora.com/What-are-some-Scala-programming-interview-questions
+https://www.scala-lang.org/old/faq/3.html
+
+
+Important
+http://sujitpal.blogspot.com/2009/01/scala-mock-interview-coding-questions.html
+
+
+
+
+
+
+import scala.util.control.Breaks._
+
+object objectFileOperator {
+
+  def main(args:Array[String]) {
+    breakable {
+      for (i <- 1 to 100) {
+        println(i)
+        break()
+      }
+    }
+    }
+
+}
+
+
+var inp_data=scala.io.StdIn.readLine().split(" ").map(_.toInt)
